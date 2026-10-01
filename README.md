@@ -1,28 +1,28 @@
-# 🎯 DayLenge
+#  DayLenge
 
 DayLenge is a full-stack Progressive Web App (PWA) that gives you a new random daily challenge every day. Complete challenges, build your streak, and compete with friends on the global leaderboard.
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
 - **Frontend:** https://daylenge.vercel.app
 - **Backend:** https://daylenge.onrender.com
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🎲 **Daily Challenge Generator** – A new random challenge every day
-- ✅ **Challenge Status** – Mark challenges as completed or failed
-- 🔥 **Streak Counter** – Track how many days in a row you've completed a challenge
-- 🏆 **Global Leaderboard** – Compete with friends and see who has the longest streak
-- 🔐 **Authentication** – Register and login with JWT-based authentication
-- 📱 **PWA Support** – Install the app on your iPhone or Android home screen
+-  **Daily Challenge Generator** – A new random challenge every day
+-  **Challenge Status** – Mark challenges as completed or failed
+-  **Streak Counter** – Track how many days in a row you've completed a challenge
+-  **Global Leaderboard** – Compete with friends and see who has the longest streak
+-  **Authentication** – Register and login with JWT-based authentication
+-  **PWA Support** – Install the app on your iPhone or Android home screen
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 React Frontend (Vercel)
@@ -34,7 +34,7 @@ PostgreSQL Database (Supabase)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 | Technology | Purpose |
@@ -146,7 +146,7 @@ DayLenge/
 
 ---
 
-## 🚀 Local Development
+##  Local Development
 
 ### Prerequisites
 - Node.js 22+
@@ -188,7 +188,7 @@ jwt.secret=your-secret-key-minimum-32-characters
 
 ---
 
-## 📱 Install as PWA on iPhone
+##  Install as PWA on iPhone
 
 1. Open the app in **Safari**
 2. Tap the **Share** button
@@ -199,7 +199,7 @@ The app will appear on your home screen like a native app!
 
 ---
 
-## 🔐 Security
+##  Security
 
 - Passwords are hashed using **BCrypt**
 - Authentication uses **JWT tokens** (24h expiration)
@@ -208,7 +208,7 @@ The app will appear on your home screen like a native app!
 
 ---
 
-## 📦 Deployment
+##  Deployment
 
 | Service | Purpose | Plan |
 |---|---|---|
@@ -220,4 +220,4 @@ The app will appear on your home screen like a native app!
 
 ## 👨‍💻 Author
 
-Built by **Leona** as a full-stack learning project.
+Built by **Leonas** as a full-stack learning project.
