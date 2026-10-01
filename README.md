@@ -60,7 +60,7 @@ PostgreSQL Database (Supabase)
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 DayLenge/
@@ -125,7 +125,7 @@ DayLenge/
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Authentication
 | Method | Endpoint | Auth | Description |
