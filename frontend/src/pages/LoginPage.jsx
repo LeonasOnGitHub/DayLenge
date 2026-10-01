@@ -16,6 +16,8 @@ export default function LoginPage() {
             const data = isLogin
                 ? await login(username, password)
                 : await register(username, password);
+            console.log("Response data:", data);
+            console.log("Username:", username);    
             localStorage.setItem("token", data.token);
             localStorage.setItem("username", username);
             navigate("/");
