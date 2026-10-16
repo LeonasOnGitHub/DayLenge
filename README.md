@@ -220,4 +220,4 @@ The app will appear on your home screen like a native app!
 
 ## 👨‍💻 Author
 
-Built by **Leonas** as a full-stack learning project.
+Built by **Leonas** as a full-stack learning by doing project.
