@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { login, register } from "../services/authService";
 import "./LoginPage.css";
+import DisclaimerBanner from "../components/DisclaimerBanner";
 
 export default function LoginPage() {
     const [username, setUsername] = useState("");
@@ -26,6 +27,8 @@ export default function LoginPage() {
         }
     };
     return (
+        <>
+         <DisclaimerBanner />
         <div className="loginContainer">
             <h1>Daily Challenge</h1>
 
@@ -61,5 +64,6 @@ export default function LoginPage() {
                 </p>
             </div>
         </div>
+        </>
     );
 }

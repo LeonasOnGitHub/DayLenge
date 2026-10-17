@@ -1,0 +1,24 @@
+.bannerContainer {
+    width: 100%;
+    background-color: #5e35b1;
+    color: white;
+    overflow: hidden;
+    padding: 8px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.bannerText {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(100vw); }
+    100% { transform: translateX(-100%); }
+}

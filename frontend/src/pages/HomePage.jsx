@@ -4,6 +4,7 @@ import useStreak  from "../hooks/useStreak";
 import Button from "../components/Button";
 import useChallenge from "../hooks/useChallenge";
 import "./HomePage.css";
+import DisclaimerBanner from "../components/DisclaimerBanner";
 
 export default function Homepage() {
     
@@ -21,6 +22,8 @@ export default function Homepage() {
     }
 
     return (
+        <>
+        <DisclaimerBanner />
         <div className="homepageContainer">
             <h1 className="homepageTitle">Daily Challenge</h1>
             <TopRow streak={streak} />
@@ -41,5 +44,6 @@ export default function Homepage() {
                 </Button>
             )}
         </div>
+        </>
     );
 }
